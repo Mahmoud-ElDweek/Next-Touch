@@ -1,0 +1,8 @@
+.footer {
+    height: 60px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
