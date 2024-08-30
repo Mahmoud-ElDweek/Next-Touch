@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/Components/Navbar/Navbar";
 import Siderbar from "@/Components/Sidebar/Siderbar";
 import Footerbar from "@/Components/Footerbar/Footerbar";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,14 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body id="app">
-        <Navbar />
-        <main id="main">
-          <div id="container">
-            <Siderbar />
-            <div id="content">{children}</div>
-          </div>
-        </main>
-        <Footerbar />
+   
+          <div id="content">{children}</div>
+    
       </body>
     </html>
   );

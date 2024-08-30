@@ -1,6 +1,8 @@
 export const Links = [
-    {pathTo: "/",label: "Home"},
+    {pathTo: "/home",label: "Home"},
     {pathTo: "/about",label: "About"},
     {pathTo: "/contact",label: "Contact"},
     {pathTo: "/blog",label: "Blog"},
+    {pathTo: "/books",label: "Books"},
+    {pathTo: "/profile",label: "Profile"},
 ];

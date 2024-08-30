@@ -6,3 +6,6 @@
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+.footer h3 {
+    margin: 0;
+}

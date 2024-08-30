@@ -26,9 +26,9 @@ const CardFooter = ( {postID} ) => {
           <p>More Details</p>
         </div>
         <div>
-          <button onClick={increase}> + </button>
+          <button onClick={increase}> Like </button>
           <span>{counter}</span>
-          <button onClick={decrease}> - </button>
+          <button onClick={decrease}> Dislike </button>
         </div>
       </div>
     </>
